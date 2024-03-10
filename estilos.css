@@ -1,0 +1,30 @@
+figure {
+    float: left;
+    text-align: center;
+}
+figure img {
+    width: 150;
+    transition: 3s;
+}
+
+#uno:hover {
+    transform: scale(1.9);
+    cursor: ne-resize;
+}
+
+#dos:hover {
+    transform: skewy(50deg);
+    cursor: cell;
+}
+#tres:hover {
+    transform: rotate(180deg);
+    cursor: nw-resize;
+}
+#cuatro:hover {
+    transform: translate(30px,60px);
+    cursor: progress;
+}
+#cinco:hover {
+    transform: translate(-50px, -100px);
+    cursor: zoom-out;
+}
